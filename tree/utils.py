@@ -83,11 +83,23 @@ def gini_index(Y: pd.Series) -> float:
     return gini_ind_value
     # pass
 
+def mse(Y: pd.Series) -> float:
+    """
+    Function to calculate the mean squared error
+    """
+
+    total_instances = len(Y)
+
+    # mse_value = 
+
+    pass
 
 def information_gain(Y: pd.Series, attr: pd.Series, criterion: str) -> float:
     """
     Function to calculate the information gain using criterion (entropy, gini index or MSE)
     """
+
+
 
     pass
 
